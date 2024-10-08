@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+    - name: LND
+      tables:
+          - name: LND_HRMS_countries
+          - name: LND_HRMS_departments
+          - name: LND_HRMS_dependents
+          - name: LND_HRMS_employees
+          - name: LND_HRMS_jobs
+          - name: LND_HRMS_locations
+          - name: LND_HRMS_regions

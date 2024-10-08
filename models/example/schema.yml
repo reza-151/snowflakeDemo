@@ -2,20 +2,11 @@
 version: 2
 
 models:
-    - name: my_first_dbt_model
+    - name: STG_HRMS_regions
       description: "A starter dbt model"
       columns:
-          - name: id
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
-
-    - name: my_second_dbt_model
-      description: "A starter dbt model"
-      columns:
-          - name: id
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
+         -name REGION_ID
+         -name REGION_NAME
+         -name META_EFFECTIVE_DATETIME
+         -name META_FILE_NAME
+         -name META_RECORD_SOURCE
