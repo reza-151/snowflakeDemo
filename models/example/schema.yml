@@ -5,8 +5,8 @@ models:
     - name: STG_HRMS_regions
       description: "A starter dbt model"
       columns:
-         -name REGION_ID
-         -name REGION_NAME
-         -name META_EFFECTIVE_DATETIME
-         -name META_FILE_NAME
-         -name META_RECORD_SOURCE
+         - name: REGION_ID
+         - name: REGION_NAME
+         - name: META_EFFECTIVE_DATETIME
+         - name: META_FILE_NAME
+         - name: META_RECORD_SOURCE
